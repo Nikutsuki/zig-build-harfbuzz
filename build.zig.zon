@@ -1,0 +1,18 @@
+.{
+    .name = .harfbuzz,
+    .version = "0.1.0",
+    .fingerprint = 0xbd60917cd9eb8b09,
+    .dependencies = .{
+        .freetype = .{
+            .url = "git+https://github.com/Nikutsuki/zig-build-freetype.git#6ef59f0c3dadb2fcc0d918db6efb0bb1d07c5a45",
+            .hash = "freetype-0.1.0-l52536WTqwD2rvEb8OIztvVmOfks1u-XOM9xPSQkAKdD",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "include",
+        "upstream",
+        "LICENSE",
+    },
+}
